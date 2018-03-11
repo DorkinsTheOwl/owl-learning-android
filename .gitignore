@@ -1,0 +1,9 @@
+**/.idea
+**/.gradle
+**/build
+**/captures
+**/.externalNativeBuild
+**/.DS_Store
+**/local.properties
+**/*.iml
+*/**/.gitignore
