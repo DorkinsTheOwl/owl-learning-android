@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
         videoView.requestFocus();
-//        MediaController mediaController = new MediaController(this);
-//        mediaController.setAnchorView(videoView);
-//        videoView.setMediaController(mediaController);
+        MediaController mediaController = new MediaController(this);
+        mediaController.setAnchorView(videoView);
+        videoView.setMediaController(mediaController);
 
         videoView.start();
     }
