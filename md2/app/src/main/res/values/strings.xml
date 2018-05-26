@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">md2</string>
+    <string name="aprekinat">Aprekinat</string>
+    <string name="kategorija">Jaizvelas medikamenta kategorija</string>
+    <string name="medikaments">Jaizvelas medikaments</string>
+    <string name="vecums">Vecums</string>
+    <string name="svars">Svars</string>
+    <string name="profilakse_label">Profilaksei</string>
+    <string name="antibiotikas_label">Antibiotikas</string>
+
+    <string-array name="blank_arr"></string-array>
+    <string-array name="kategorija_arr">
+        <item>Izvelieties kategoriju</item>
+        <item>@string/profilakse_label</item>
+        <item>@string/antibiotikas_label</item>
+    </string-array>
+    <string-array name="medikamenti_profilaksei_arr">
+        <item>Izvelieties medikamentu</item>
+        <item>Vitamins B</item>
+        <item>Vitamins C</item>
+        <item>Vitamins D</item>
+    </string-array>
+    <string-array name="medikamenti_antibiotikas_arr">
+        <item>Izvelieties medikamentu</item>
+        <item>Oksitetraciklīns</item>
+        <item>Kapreomicīns</item>
+        <item>Vankomicīns</item>
+    </string-array>
+</resources>
